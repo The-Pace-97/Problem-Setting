@@ -1,2 +1,2 @@
 # Problem-Setting
-Algorithmic and Data structures Problem including Mathmatics Pzzle
+Algorithmic and Data structures Problem including Mathmatics Puzzle
