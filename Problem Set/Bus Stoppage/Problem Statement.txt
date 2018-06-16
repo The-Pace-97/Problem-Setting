@@ -13,10 +13,7 @@ has to change to reach city Y.
 
 NOTE : All indexing are 1 based.
  
-
-
 INPUT :
-
 
 First line contains a single integer N (number of stoppages from city X to city Y). 
 Second line contains N space separated integers of array A.
@@ -27,7 +24,6 @@ denoting the initial stoppage of Professor P.
 
 
 OUTPUT :
-
 
 For each Q, print a single integer in new line denoting the minimum number of buses that 
 have to be changed by Professor P to reach city Y from stoppage(I).
