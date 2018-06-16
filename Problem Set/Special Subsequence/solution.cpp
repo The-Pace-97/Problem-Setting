@@ -1,4 +1,4 @@
-// Author         : Pandit Deepesh Kumar Sharma  ( dk30390 )
+// Author         : Pandit Deepesh Kumar Sharma   ( dk30390 )
 // Prerequisite   : Understanding of Prime Factorisation 
 #include<bits/stdc++.h>
 using namespace std;
