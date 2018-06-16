@@ -1,0 +1,49 @@
+professor p has n students in his class.he has maintain the records of marks that each student has got in the final exam,where a[i] represents the 
+total marks of the ith student.any ith student will be considered as passed iff [(a[i] xor k)>m].
+professor p has to compute all possible subarray such that first student of the subarray has passed the exam and last student of the subarray has 
+failed the exam.
+professor p wants you to calculate [1/(number of such subarray)]%1000000007.
+ 
+INPUT :
+First line contains a single integer T(number of testcases).First line of each testcase contains three integers N(number of students),k and m.
+Second line of each testcase contains n space seperated integers representing the marks of ith student.
+
+
+OUTPUT :
+For each testcase print a single integer in a new line (1/(number of defined subarray))%1000000007 
+or print -1 if there exist no such subarray.
+ 
+CONSTRAINTS :
+1<=T<=100
+1<=a[i]<=100000
+1<=N<=100000
+1<=k<=100000
+1<=m<=100000
+
+SUBTASKS :
+Subtask #1 (20 points)
+1<=T<=10
+1<=N<=1000
+1<=k<=100000
+1<=m<=100000
+
+Subtasks #2(70 points)
+Original constraints
+
+Example
+Input :
+
+3
+5 7 10
+4 8 3 12 7
+3 7 5
+1 2 3
+5 7 10
+8 8 8 8 8
+
+Output :
+
+666666673
+500000005
+-1
+

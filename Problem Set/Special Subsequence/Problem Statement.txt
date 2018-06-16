@@ -1,0 +1,50 @@
+You are given a string(S) by the Professor(P).Your task is to find all distinct subsequences of the string(S).
+Two subsequence is said to be distinct if they are different after performing the sort operation on both the subsequence.Professor(P) knows 
+that number of such different subsequences can be very large so he ask you to print (number%1000000007).
+subsequence {"aba","aab"} and {"cbb","cbb"} are not distinct where subsequence {"aba","abb"} and {"a","aa"} are distinct.
+
+ 
+INPUT :
+First line contains a single integer T(number of testcases).First line of each testcase contains a single integer N(length of string(S)).
+Second line of each testcase contains a string(S) of length(N).
+
+
+OUTPUT :
+For each testcase print the total number of distinct subsequences of the string(S) with modulo 1000000007 in a new line.
+ 
+CONSTRAINTS :
+1<=T<=100
+1<=N<=100000
+
+SUBTASKS :
+Subtask #1 (30 points)
+1<=T<=100
+1<=N<=10
+
+Subtasks #2(70 points)
+Original constraints
+
+Example
+Input :
+
+4
+3
+abc
+3
+aba
+4
+abbc
+3
+aaa
+
+Output :
+7
+5
+11
+3
+
+Explanation :
+
+Testcase 1 : All subsequences of string("abc") are {"a","b","c","ab","ac","bc","abc"} where each subsequences are distinct.
+Testcase 2 : All subsequences of string("aba") are {"a","b","a","ab","aa","ba","aba"} where the distinct subsequences are {"a","b","ab","aa","aba"}
+             subsequence {"a","a"} and {"ab","ba"} are not distinct so both will be counted once.
